@@ -25,10 +25,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	tb "gopkg.in/tucnak/telebot.v2"
 
-	"github.com/nuetoban/crocodile-game-bot/crocodile"
-	"github.com/nuetoban/crocodile-game-bot/model"
-	"github.com/nuetoban/crocodile-game-bot/storage"
-	"github.com/nuetoban/crocodile-game-bot/utils"
+	"https://github.com/toramanfener/croco-az"
+	"https://github.com/toramanfener/croco-az/tree/main/model"
+	"https://github.com/toramanfener/croco-az/tree/main/storage"
+	"https://github.com/toramanfener/croco-az/tree/main/utils"
 )
 
 var (
