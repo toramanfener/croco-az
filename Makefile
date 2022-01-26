@@ -1,4 +1,4 @@
-IMAGE := "nuetoban/crocodile"
+IMAGE := "toramanfener/kelimebotum"
 TAG := $(shell git describe --tags)
 
 .PHONY: build run docker-build docker-tag docker-push migrate-up migrate-down get test graph wc
@@ -47,7 +47,7 @@ test:
 
 graph:
 	go get -u github.com/TrueFurby/go-callvis
-	go-callvis -focus github.com/nuetoban/crocodile-game-bot/crocodile \
+	go-callvis -focus https://github.com/toramanfener/kelimebotum/tree/main/crocodile \
 		-group pkg,type -nostd -format=png \
 		-ignore github.com/sirupsen/logrus . | dot -Tpng -o crocodile.png
 
